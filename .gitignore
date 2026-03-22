@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Terraform — state files can contain sensitive credentials
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Generated data files
+local_save_data/
+pipeline/data/
+pipeline/backfill/backfill_data/
+create_parquet_local/parquet_files/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
